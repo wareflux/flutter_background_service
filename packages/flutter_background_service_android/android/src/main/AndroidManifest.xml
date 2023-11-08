@@ -12,7 +12,7 @@
             android:exported="true"
             android:name=".BackgroundService"
             android:stopWithTask="false"
-            android:foregroundServiceType="${foregroundServiceType}"
+            android:foregroundServiceType="location"
             />
 
         <receiver
